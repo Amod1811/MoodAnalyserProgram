@@ -15,7 +15,7 @@ public class MoodAnalyserTest {
         //create object
         MoodAnalyser moodAnalyser = new MoodAnalyser();
         String expectedValue = "SAD";
-        String mood = moodAnalyser.analysemood("I am in sad mood");
+        String mood = moodAnalyser.analysemood("I am in sad Mood");
         Assert.assertEquals(expectedValue,mood);
     }
     
@@ -25,7 +25,7 @@ public class MoodAnalyserTest {
         //create object
         MoodAnalyser moodAnalyser = new MoodAnalyser();
         String expectedValue = "Happy";
-        String mood = moodAnalyser.analysemood("I am in Happy mood");
+        String mood = moodAnalyser.analysemood("I am in Happy Mood");
         Assert.assertEquals(expectedValue,mood);
     }
 
