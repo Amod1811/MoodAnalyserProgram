@@ -1,5 +1,7 @@
-package com.bl.moodanalyzerrprogram;
-
+package bl.com.moodanalyser;
+/*
+	using the Constructor
+ */
 public class MoodAnalyserConstructor {
 	
 	
