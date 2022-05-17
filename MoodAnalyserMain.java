@@ -4,7 +4,7 @@ Ability to analyse and respond Happy or Sad mood
  */
 public class MoodAnalyserMain {
     public static void main(String[] args) {
-        System.out.println("Welcome to Mood Analyser program");
+        System.out.println("Welcome To Mood Analyser program");
 
         //Crate object
         MoodAnalyser moodAnalyser = new MoodAnalyser();
