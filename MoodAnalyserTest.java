@@ -1,5 +1,5 @@
 package bl.com.moodanalyser;
-/*Analysemood method can just return Sad or Happy
+/* Analysemood method can just return Sad or Happy
  */
 
 import org.junit.Assert;
@@ -9,15 +9,7 @@ public class MoodAnalyserTest {
 
     //Test for Sad
     
-    @Test
-     public void givenMessageWhenSadShouldReturnSad(){
-        
-        //create object
-        MoodAnalyser moodAnalyser = new MoodAnalyser();
-        String expectedValue = "SAD";
-        String mood = moodAnalyser.analysemood("I am in sad Mood");
-        Assert.assertEquals(expectedValue,mood);
-    }
+
     
     //Test for Happy
     @Test
@@ -28,6 +20,14 @@ public class MoodAnalyserTest {
         String mood = moodAnalyser.analysemood("I am in Happy Mood");
         Assert.assertEquals(expectedValue,mood);
     }
+    @Test
+    public void givenMessageWhenSadShouldReturnSad(){
 
+        //create object
+        MoodAnalyser moodAnalyser = new MoodAnalyser();
+        String expectedValue = "SAD";
+        String mood = moodAnalyser.analysemood("I am in sad Mood");
+        Assert.assertEquals(expectedValue,mood);
+    }
 
 }
